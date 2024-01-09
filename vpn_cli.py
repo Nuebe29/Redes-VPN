@@ -17,7 +17,7 @@ def main():
             vpn.stop()
         elif command[0] == 'create_user':
             vpn.create_user(command[1], command[2], command[3])
-        elif command[0] == 'restricte_vlan':
+        elif command[0] == 'restrict_vlan':
             vpn.restrict_vlan(command[1])
         elif command[0] == 'restrict_user':
             vpn.restrict_user(command[1])
